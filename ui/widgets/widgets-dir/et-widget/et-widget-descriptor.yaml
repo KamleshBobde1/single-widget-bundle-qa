@@ -1,0 +1,12 @@
+code: et-app-conf
+titles:
+  en: Entando Template MF with conf and strapi
+  it: Entando Template MF with conf and strapi
+group: free
+customUiPath: et-widget.ftl
+configUi:
+  customElement: my-widget-config # CHANGE-IT The name of the custom-element used to render the configUI
+  resources: # CHANGE-IT the file containing the config screen built artefacts
+    - entando-mf-conf-template/static/js/2.ffd565c6.chunk.js
+    - entando-mf-conf-template/static/js/main.b387b41e.chunk.js
+    - entando-mf-conf-template/static/js/runtime-main.0096342d.js
